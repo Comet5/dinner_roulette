@@ -71,7 +71,7 @@
   
             $roulette.children("." + itemSelector).eq(idx).children("." + labelSelector).css({
               "height": textH + 'px',
-              "line-height": textH + 25 + 'px',
+              "line-height": textH + 25 + 14 + 'px',
               "transform": 'translateX(' + (textH * 1.3) + 'px) translateY(' + (wrapW * -.3) + 'px) rotateZ(' + (90 + d * .5) + 'deg)'
             });
   
